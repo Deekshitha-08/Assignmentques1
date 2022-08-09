@@ -1,10 +1,11 @@
  import java.util.*;
 public class ques1 {
-    static void printCollatz(int n)
-    {
+    public static void main(String[] args){
 
-        while (n != 1)
-        {
+    }
+    static void printCollatz(int n) {
+
+        while (n != 1) {
             System.out.print(n + " ");
             if ((n & 1) == 1)
                 n = 3 * n + 1;
@@ -17,9 +18,8 @@ public class ques1 {
         System.out.print(n);
     }
 
-
-    public static void main (String[] args)
-    {
-        printCollatz(5);
-    }
 }
+
+
+
+
